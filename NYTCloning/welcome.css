@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Merriweather:wght@400;700&family=Crimson+Text:wght@400;700&display=swap');
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    color: #0000;
+    background-color: #ffff;
+}
+
+.welcome-greeting h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 160px;
+    font-weight: bold;
+    color: #fcd7b3;
+    text-shadow: 3px 5px 5px #aa8a62;
+}
+
+.welcome-greeting h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: #ffff;
+}
+
+.welcome-greeting {
+    position: absolute;
+    bottom: 10px;  
+    left: 30px;
+    background-color: transparent;  
+    color: white;  
+    padding: 20px;
+    width: 600px;  
+    height: auto;
+    justify-content: center;
+}
+
+.open-text a {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 45px;
+    position: absolute;
+    justify-content: left;
+    color: white; 
+    padding: 1rem 0px;
+}
+
+.open-description {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    position: absolute; 
+    left: 30px; 
+    bottom: 20px;
+    color: white;
+}
+
+.home-photo {
+    width: 100%;
+}
+
+.info-box {
+    position: absolute;
+    bottom: 20px; 
+    right: 20px;
+    background-color: #A37D55;  
+    color: white;  
+    padding: 1rem 1rem;
+    width: 500px;  
+    height: 400px;
+    justify-content: center;
+}
+
+.welcome-div {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+main {
+    background-color: #D1B899;
+    height: 100vh;
+    margin: auto;
+}
+
+/* Media Queries */
+
+/* For devices with a max width of 1200px */
+@media (max-width: 1200px) {
+    .welcome-greeting {
+        top: 10px;
+    }
+
+    .welcome-greeting h1 {
+        font-size: 100px;
+    }
+
+    .open-text a {
+        font-size: 35px;
+    }
+
+    .info-box {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+/* For devices with a max width of 768px */
+@media (max-width: 768px) {
+    .welcome-greeting {
+        left: 20px;
+        width: 90%;
+    }
+
+    .welcome-greeting h1 {
+        font-size: 80px;
+    }
+
+    .welcome-greeting h3 {
+        font-size: 24px;
+    }
+
+    .open-text a {
+        font-size: 28px;
+    }
+
+    .open-description {
+        font-size: 16px;
+        left: 20px; 
+    }
+
+    .info-box {
+        width: 90%;
+        height: 250px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .home-photo {
+        height: auto;
+    }
+}
+
+/* For devices with a max width of 480px */
+@media (max-width: 480px) {
+    .welcome-greeting {
+        top: 50px;
+        right: 10px;
+    }
+
+    .welcome-greeting h1 {
+        font-size: 65px;
+    }
+
+    .welcome-greeting h3 {
+        font-size: 20px;
+    }
+
+    .open-text a {
+        font-size: 24px;
+    }
+
+    .open-description {
+        display: none;
+    }
+
+    .info-box {
+        width: 100%;
+        height: 150px;
+        bottom: 0;
+        right: 10px;
+    }
+}

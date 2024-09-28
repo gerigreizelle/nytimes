@@ -1,0 +1,16 @@
+{
+  "name": "testfolder",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "parcel build --public-url https://gerigreizelle.github.io/NYTimes-Cloning src/index.html" ,
+    "dev": "parcel serve NYTCloning/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

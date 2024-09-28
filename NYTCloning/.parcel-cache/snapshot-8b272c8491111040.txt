@@ -1,0 +1,21 @@
+20
+46/home/gerigreizelle/testfolder/NYTCloning/docx1727501033789090400 1
+49/home/gerigreizelle/testfolder/NYTCloning/tech.js1727469663178287500 0
+54/home/gerigreizelle/testfolder/NYTCloning/package.json1727503115533295000 0
+59/home/gerigreizelle/testfolder/NYTCloning/package-lock.json1727471032006652100 0
+50/home/gerigreizelle/testfolder/NYTCloning/movie.js1727469571502685200 0
+52/home/gerigreizelle/testfolder/NYTCloning/index.html1727501826202591300 0
+50/home/gerigreizelle/testfolder/NYTCloning/home.css1727487896128763000 0
+53/home/gerigreizelle/testfolder/NYTCloning/welcome.css1727468207164488300 0
+72/home/gerigreizelle/testfolder/NYTCloning/NYTimes-Cloning.code-workspace1727500483951974900 0
+49/home/gerigreizelle/testfolder/NYTCloning/home.js1727487837006202000 0
+49/home/gerigreizelle/testfolder/NYTCloning/arts.js1727496021590768700 0
+51/home/gerigreizelle/testfolder/NYTCloning/books.css1727470256784092200 0
+51/home/gerigreizelle/testfolder/NYTCloning/movie.css1727470381625134700 0
+50/home/gerigreizelle/testfolder/NYTCloning/books.js1727470155794809400 0
+50/home/gerigreizelle/testfolder/NYTCloning/arts.css1727496559934748100 0
+41/home/gerigreizelle/testfolder/NYTCloning1727501033678387100 1
+56/home/gerigreizelle/testfolder/NYTCloning/search-bar.css1727470444830386400 0
+49/home/gerigreizelle/testfolder/NYTCloning/nav.css1727495912712968200 0
+55/home/gerigreizelle/testfolder/NYTCloning/search-bar.js1727494703668002100 0
+50/home/gerigreizelle/testfolder/NYTCloning/tech.css1727488022039952500 0

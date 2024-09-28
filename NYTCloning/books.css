@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Merriweather:wght@400;700&family=Crimson+Text:wght@400;700&display=swap');
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    color: #0000;
+    background-color: #D1B899;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #31200a;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: #D1B899;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    padding: 1rem 1rem;
+}
+
+.book-div {
+    height: auto;
+    background-color: #D1B899 ;
+    margin: auto;
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 1rem;
+    border-top: 2px solid #362004;
+}
+
+.book-reviews {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    row-gap: 1.5rem;
+}
+
+.books {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding: 1rem;
+    display: grid;
+    flex-direction: column;
+    align-content: baseline;
+    transition: all 0.3s ease;
+    filter: grayscale(75%);
+}
+
+.books:hover {
+    background-color: #c29e6e;
+    transform: translateY(0.5rem);
+    transition: all 0.3s ease;
+    filter: none;
+}
+
+.book-cover {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    filter: grayscale(5%);
+    padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .book-reviews {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    h2 {
+        font-size: 16px;
+        padding: 0.5rem; 
+    }
+
+    .books {
+        padding: 0.5rem; 
+    }
+
+    .book-cover {
+        height: 200px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .book-reviews {
+        grid-template-columns: 1fr; 
+    }
+
+    h2 {
+        font-size: 14px; 
+    }
+
+    .book-div {
+        flex-direction: column; 
+    }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.0.9/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="welcome.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="arts.css">
+    <link rel="stylesheet" href="books.css">
+    <link rel="stylesheet" href="tech.css">
+    <link rel="stylesheet" href="movie.css">
+    <link rel="stylesheet" href="search-bar.css">
+
+    <script type="module" src="home.js"></script>
+    <script type="module" src="arts.js"></script>
+    <script type="module" src="books.js"></script>
+    <script type="module" src="tech.js"></script>
+    <script type="module" src="movie.js"></script>
+    <script type="module" src="search-bar.js"></script>
+
+    <title>New York Times Cloning</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav__content">
+            <div class="logo"><a href="#welcome-div">NewYorkTimes</a></div>
+            <label for="check" class="checkbox"><i class='bx bx-menu-alt-right' ></i>
+            </label>
+
+
+            <input type="checkbox" name="check" id="check">
+            <ul>
+                <li><a class="nav-link" href="#home-div">home</a></li>
+                <li><a class="nav-link" href="#arts-div">arts</a></li>
+                <li><a class="nav-link" href="#book-div">books</a></li>
+                <li><a class="nav-link" href="#tech-div">tech</a></li>
+                <li><a class="nav-link" href="#movie-div">movies</a></li>
+            </ul>
+
+            <!-- <form class="search-container">
+                <input type="text" id="searchInput" placeholder="search" onkeypress="handleKeyPress(event)">
+                <button id="searchButton">
+                    <i class='bx bx-search-alt' ></i>
+                </button>
+            </form> -->
+
+        </div>
+    </nav> 
+
+    <div class="welcome-div" id="welcome-div"></div>
+        <div class="welcome-greeting"> 
+            <h1>Today's Paper</h1>
+            <h3 id="date-time"></h3>
+        </div>
+
+    <main>
+        <div class="results-div">
+            <div id="results">Search Results</div>
+        </div>
+        
+        <div id="home-div"></div>
+        <h1>Latest News</h1>
+        <div class="home-div">
+            <div id="top-stories">Loading...</div>
+            <div id="sidebar">
+            </div>
+        </div>
+
+        <div id="arts-div">
+        <h1>Latest Arts</h1>
+        <div class="arts-div">
+            <div id="arts-sidebar">
+                <div id="asb-one"></div>
+            </div>
+            <div id="latest-arts">Loading...</div>
+        </div>
+        </div>
+
+        
+
+        <div id="book-div">
+        <h1>Book Reviews</h1>
+        <div class="book-div">
+            <div class="book-reviews" id="book-reviews">Loading...</div>
+        </div>
+
+
+        <div id="tech-div"></div>
+        <h1>Technology</h1>
+        <div class="tech-div"></div>
+            <div class="tech-content" id="tech-content">Loading...</div>
+        </div>
+
+        <div id="movie-div"></div>
+        <h1>Movies</h1>
+        <div class="movie-div">
+            <div class="movie-content" id="movie-content"></div>
+            <button id="prev" class="nav-btn">
+                <i class='bx bx-left-arrow'></i>    
+            </button>
+            <button id="next" class="nav-btn">
+                <i class='bx bx-right-arrow' ></i>    
+            </button>
+        </div>
+    </main>
+
+
+    <footer>
+        <a href="https://developer.nytimes.com/"
+          ><img
+            src="https://developer.nytimes.com/files/poweredby_nytimes_150a.png?v=1583354208339"
+        /></a>
+        For educational purposes only.
+      </footer>
+
+      
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    const navCheckbox = document.getElementById('check');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            // Uncheck the checkbox to hide the navbar
+            navCheckbox.checked = false;
+        });
+    });
+});
+</script>
+</html>
