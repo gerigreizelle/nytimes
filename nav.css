@@ -190,7 +190,6 @@ footer {
         width: 50%;
         padding: 0;
         margin: 0;
-        /* height: 100vh; */
         height: calc(100vh - 64px);
         right: -100%;
         top: 65px;
