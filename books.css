@@ -78,6 +78,10 @@ main {
 }
 
 @media (max-width: 768px) {
+    #book-div {
+        padding: 1rem;
+    }
+
     .book-reviews {
         grid-template-columns: repeat(2, 1fr); 
     }

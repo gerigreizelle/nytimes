@@ -141,6 +141,10 @@ main {
 }
 
 @media (max-width: 768px) {
+    #arts-div {
+        padding: 1rem;
+    }
+
     h1 {
         font-size: 45px; 
         padding-top: 3rem; 

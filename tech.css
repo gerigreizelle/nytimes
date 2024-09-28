@@ -81,9 +81,17 @@ p {
 
 
 @media (max-width: 600px) {
+    #tech-div {
+        padding: 1rem;
+    }
+
     .tech-content {
         grid-template-columns: 1fr; 
         gap: 1rem;
+    }
+
+    .tech-photo {
+        height: 450px;
     }
 
     .tech-title {
