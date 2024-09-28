@@ -193,7 +193,7 @@ footer {
         /* height: 100vh; */
         height: calc(100vh - 64px);
         right: -100%;
-        top: 75px;
+        top: 65px;
         background-color: #D1B899;
         flex-direction: column;
         justify-content: center;
